@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "title": "Photosynthesis: How Plants Make Food",
+    "video_purpose": "Educational explainer for beginners",
+    "target_length": "60 seconds",
+    "target_length_seconds": 60,
+    "main_topic": "How photosynthesis works in plants",
+    "target_audience": "Beginners, including school-age learners and curious adults",
+    "platform": "YouTube and classroom presentations",
+    "genre": "Animated science explainer",
+    "tone": "Clear, friendly, and curious",
+    "language": "English",
+    "assumptions": [
+      "The video is for a general beginner audience and should use plain language.",
+      "A simple 2D animation can explain the process more clearly than live-action footage alone.",
+      "The video will be made for standard online viewing in a horizontal format.",
+      "A calm voice-over will carry the explanation, with no character dialogue.",
+      "The narration should fit a comfortable pace of about 128 words per minute."
+    ]
+  },
+  "creative_direction": {
+    "concept": "Follow sunlight, water, and carbon dioxide as they enter a leaf and become glucose and oxygen.",
+    "mood": "Fresh, inviting, and gently wondrous",
+    "visual_style": "Clean 2D educational animation with simple shapes, clear labels, and a friendly plant illustration",
+    "color_palette": [
+      "Leaf green",
+      "Sunlight yellow",
+      "Sky blue",
+      "Warm soil brown",
+      "Clean white"
+    ],
+    "storytelling_approach": "Explain the process in a simple sequence: sunlight reaches the leaf, water and carbon dioxide arrive, the leaf makes glucose, and oxygen is released.",
+    "opening_hook": "Start with a close-up of a green leaf and pose a simple question.",
+    "opening_hook_text": "How does a leaf make food?",
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "frame_rate": "30 fps"
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "scene_title": "A Leaf Makes Food",
+      "start_time_seconds": 0,
+      "end_time_seconds": 10,
+      "duration_seconds": 10,
+      "visual_description": "Open on a bright green leaf against a simple sky. A sunbeam lands on the leaf as the camera moves closer. Show the opening question, then reveal a small whole plant.",
+      "footage_or_assets_needed": [
+        "2D animated green leaf",
+        "Simple sun and sunbeam animation",
+        "Whole potted plant illustration"
+      ],
+      "voice_over": "A plant makes its own food using sunlight. This process is called photosynthesis—and it starts when light reaches a leaf.",
+      "dialogue": "",
+      "on_screen_text": [
+        "How does a leaf make food?",
+        "Photosynthesis"
+      ],
+      "sensory_cues": {
+        "visual": "A vivid green leaf catches a warm yellow beam of sunlight.",
+        "auditory": "Soft morning birdsong and a gentle musical opening.",
+        "physical_or_emotional": "Create a fresh, welcoming feeling that invites curiosity."
+      },
+      "music": "Light, warm instrumental music begins softly.",
+      "sound_effects": [
+        "Gentle sunbeam shimmer",
+        "Soft birdsong"
+      ],
+      "camera_direction": "Begin with a close-up of the leaf, then slowly pull back to show the plant.",
+      "lighting_and_color": "Use bright natural-looking light, fresh greens, and a soft yellow highlight.",
+      "transition_to_next_scene": "Follow a small animated water droplet down toward the soil."
+    },
+    {
+      "scene_number": 2,
+      "scene_title": "Water and Carbon Dioxide Arrive",
+      "start_time_seconds": 10,
+      "end_time_seconds": 20,
+      "duration_seconds": 10,
+      "visual_description": "Show water entering the roots and traveling up the stem as blue arrows. Animate small carbon dioxide particles moving from the air into the leaf through tiny pores.",
+      "footage_or_assets_needed": [
+        "Plant with visible roots and stem",
+        "Animated blue water droplets and arrows",
+        "Carbon dioxide particle icons",
+        "Simple leaf pore illustration"
+      ],
+      "voice_over": "Roots absorb water from soil and carry it up the stem. Leaves also take in carbon dioxide from the air through tiny pores.",
+      "dialogue": "",
+      "on_screen_text": [
+        "Water from soil",
+        "Carbon dioxide from air",
+        "Tiny leaf pores"
+      ],
+      "sensory_cues": {
+        "visual": "Blue water droplets travel upward while small particles drift into the leaf.",
+        "auditory": "Quiet bubbling accompanies the water, with a soft airy whoosh for incoming carbon dioxide.",
+        "physical_or_emotional": "The steady upward motion feels calm and easy to follow."
+      },
+      "music": "Continue the light instrumental music at a low level.",
+      "sound_effects": [
+        "Soft water bubbling",
+        "Gentle airy whoosh"
+      ],
+      "camera_direction": "Track upward from the roots along the stem, then move in toward the leaf.",
+      "lighting_and_color": "Keep the plant green and use blue for water and pale gray for carbon dioxide particles.",
+      "transition_to_next_scene": "Zoom through the leaf surface into a simple view of its cells."
+    },
+    {
+      "scene_number": 3,
+      "scene_title": "Sunlight Powers the Process",
+      "start_time_seconds": 20,
+      "end_time_seconds": 30,
+      "duration_seconds": 10,
+      "visual_description": "Reveal a simplified leaf cell and a chloroplast inside it. Show green chlorophyll capturing yellow sunlight, while water and carbon dioxide icons move toward the chloroplast.",
+      "footage_or_assets_needed": [
+        "Simple animated leaf cell",
+        "Chloroplast illustration",
+        "Chlorophyll highlight",
+        "Sunlight, water, and carbon dioxide icons"
+      ],
+      "voice_over": "Inside leaf cells, green chlorophyll captures sunlight. In tiny structures called chloroplasts, that energy helps combine water and carbon dioxide.",  
+      "dialogue": "",
+      "on_screen_text": [
+        "Chlorophyll captures light",
+        "Chloroplast"
+      ],
+      "sensory_cues": {
+        "visual": "A green chloroplast glows as yellow light reaches it.",
+        "auditory": "A soft bright chime marks the moment sunlight is captured.",
+        "physical_or_emotional": "The close-up creates a sense of discovery without feeling complicated."
+      },
+      "music": "Add a subtle uplifting note as the chloroplast lights up.",
+      "sound_effects": [
+        "Soft bright chime",
+        "Gentle energy pulse"
+      ],
+      "camera_direction": "Use a smooth zoom into the leaf cell, then hold a clear view of the chloroplast.",
+      "lighting_and_color": "Use a clean white cell background, saturated green structures, and a warm yellow glow.",
+      "transition_to_next_scene": "Let the glowing chloroplast expand into a simple product diagram."
+    },
+    {
+      "scene_number": 4,
+      "scene_title": "The Plant Makes Glucose",
+      "start_time_seconds": 30,
+      "end_time_seconds": 40,
+      "duration_seconds": 10,
+      "visual_description": "Show water and carbon dioxide icons entering a simple animated process graphic. Glucose icons appear and move through the plant toward growing leaves and roots.",
+      "footage_or_assets_needed": [
+        "Simple photosynthesis process graphic",
+        "Water and carbon dioxide icons",
+        "Glucose sugar icons",
+        "Growing leaf and root illustrations"
+      ],
+      "voice_over": "The plant turns these ingredients into glucose, a sugar it uses for energy and growth. Some glucose can be stored for later.",
+      "dialogue": "",
+      "on_screen_text": [
+        "Glucose = sugar",
+        "Energy and growth",
+        "Some is stored"
+      ],
+      "sensory_cues": {
+        "visual": "Small glucose icons appear and travel to different parts of the plant.",
+        "auditory": "A gentle sequence of soft pops accompanies the new glucose icons.",
+        "physical_or_emotional": "The growing plant gives the explanation an encouraging, productive feeling."
+      },
+      "music": "Keep the music gentle and positive, with no sudden changes.",
+      "sound_effects": [
+        "Soft pop as glucose appears",
+        "Subtle growth shimmer"
+      ],
+      "camera_direction": "Hold the process graphic long enough to read, then follow a glucose icon toward a growing leaf.",
+      "lighting_and_color": "Use warm yellow accents for glucose and maintain the established green and blue palette.",
+      "transition_to_next_scene": "Follow a glucose icon toward the leaf edge, then reveal oxygen moving outward."
+    },
+    {
+      "scene_number": 5,
+      "scene_title": "Oxygen Leaves the Plant",
+      "start_time_seconds": 40,
+      "end_time_seconds": 50,
+      "duration_seconds": 10,
+      "visual_description": "Show oxygen icons forming near the leaf and drifting out through a pore into the surrounding air. Keep the plant clearly visible in the frame.",
+      "footage_or_assets_needed": [
+        "Leaf with visible pore",
+        "Oxygen molecule icons",
+        "Simple surrounding air background"
+      ],
+      "voice_over": "Oxygen is made too, and most of it exits through leaf pores into the air we breathe.",
+      "dialogue": "",
+      "on_screen_text": [
+        "Oxygen released",
+        "Into the air"
+      ],
+      "sensory_cues": {
+        "visual": "Small oxygen icons float gently from the leaf into open space.",
+        "auditory": "A light airy release sound follows the oxygen as it drifts away.",
+        "physical_or_emotional": "The open space and gentle motion feel light and refreshing."
+      },
+      "music": "Let the instrumental music breathe with a soft sustained note.",
+      "sound_effects": [
+        "Light airy release",
+        "Soft floating sparkle"
+      ],
+      "camera_direction": "Move from a close view of the pore to a wider view of oxygen drifting away.",
+      "lighting_and_color": "Use bright greens and pale sky blue, with soft highlights around the oxygen icons.",
+      "transition_to_next_scene": "Gather the icons into a clean summary diagram."
+    },
+    {
+      "scene_number": 6,
+      "scene_title": "The Process at a Glance",
+      "start_time_seconds": 50,
+      "end_time_seconds": 60,
+      "duration_seconds": 10,
+      "visual_description": "Show the whole plant beside a simple summary: sunlight, water, and carbon dioxide lead to glucose and oxygen. End on a healthy green leaf with a brief invitation to notice plants around you.",
+      "footage_or_assets_needed": [
+        "Whole plant illustration",
+        "Simple photosynthesis summary diagram",
+        "Sunlight, water, carbon dioxide, glucose, and oxygen icons"
+      ],
+      "voice_over": "So, sunlight plus water and carbon dioxide make glucose and oxygen. Photosynthesis feeds the plant and releases oxygen. Look for the green leaves doing the work.",
+      "dialogue": "",
+      "on_screen_text": [
+        "Sunlight + water + carbon dioxide",
+        "Glucose + oxygen",
+        "Notice the green leaves around you"
+      ],
+      "sensory_cues": {
+        "visual": "A clear, colorful summary appears beside a healthy plant.",
+        "auditory": "The music resolves with a gentle, satisfying final note.",
+        "physical_or_emotional": "End with a positive sense of understanding and appreciation for plants."
+      },
+      "music": "Resolve the music warmly and fade it out at the end.",
+      "sound_effects": [
+        "Soft summary sparkle"
+      ],
+      "camera_direction": "Hold the summary graphic steady, then finish with a gentle push toward the green leaf.",
+      "lighting_and_color": "Use balanced bright light and the established green, yellow, blue, and white palette.",
+      "transition_to_next_scene": "Fade smoothly to white at the end of the video."
+    }
+  ],
+  "complete_video_script": {
+    "full_narration": "A plant makes its own food using sunlight. This process is called photosynthesis—and it starts when light reaches a leaf. Roots absorb water from soil and carry it up the stem. Leaves also take in carbon dioxide from the air through tiny pores. Inside leaf cells, green chlorophyll captures sunlight. In tiny structures called chloroplasts, that energy helps combine water and carbon dioxide. The plant turns these ingredients into glucose, a sugar it uses for energy and growth. Some glucose can be stored for later. Oxygen is made too, and most of it exits through leaf pores into the air we breathe. So, sunlight plus water and carbon dioxide make glucose and oxygen. Photosynthesis feeds the plant and releases oxygen. Look for the green leaves doing the work.",
+    "full_dialogue": "",
+    "estimated_word_count": 128,
+    "estimated_duration_seconds": 60
+  },
+  "asset_checklist": {
+    "characters": [
+      "Friendly illustrated plant with visible roots, stem, and leaves"
+    ],
+    "backgrounds": [
+      "Simple bright sky and soil background",
+      "Clean educational close-up background for leaf cells"
+    ],
+    "video_clips": [
+      "Optional close-up footage of sunlight on a green leaf",
+      "Optional time-lapse footage of a growing plant"
+    ],
+    "b_roll": [
+      "Optional footage of water droplets on leaves",
+      "Optional footage of leaves moving gently in a breeze"
+    ],
+    "images": [
+      "Reference image of a leaf and its pores",
+      "Reference illustration of a chloroplast"
+    ],
+    "graphics": [
+      "Water, carbon dioxide, sunlight, glucose, and oxygen icons",
+      "Simple leaf cell and chloroplast diagram",
+      "Photosynthesis summary diagram"
+    ],
+    "text_overlays": [
+      "How does a leaf make food?",
+      "Photosynthesis",
+      "Water from soil",
+      "Carbon dioxide from air",
+      "Chlorophyll captures light",
+      "Chloroplast",
+      "Glucose = sugar",
+      "Energy and growth",
+      "Oxygen released",
+      "Sunlight + water + carbon dioxide",
+      "Glucose + oxygen"
+    ],
+    "music": [
+      "Light, warm instrumental music with a gentle ending"
+    ],
+    "sound_effects": [
+      "Soft birdsong",
+      "Sunbeam shimmer",
+      "Water bubbling",
+      "Airy whoosh",
+      "Bright chime",
+      "Gentle energy pulse",
+      "Soft pops",
+      "Light airy release",
+      "Soft sparkle"
+    ]
+  },
+  "editing_instructions": {
+    "project_settings": {
+      "aspect_ratio": "16:9",
+      "resolution": "1920x1080",
+      "frame_rate": "30 fps",
+      "file_format": "MP4, H.264 video with AAC audio"
+    },
+    "timeline_setup": "Create a 60-second project at 1920x1080 and 30 fps. Add six scene sections, each 10 seconds long.",
+    "clip_placement": "Place scenes in numerical order, starting at 0 seconds. Keep the main plant and important labels inside the central safe area.",
+    "clip_duration_guidance": "Use the planned 10 seconds per scene. Leave enough screen time for viewers to read each short label.",
+    "transition_guidance": "Use simple cuts, gentle dissolves, and purposeful zooms. Avoid fast or decorative transitions that distract from the explanation.",
+    "narration_synchronization": "Record the narration clearly, then align each sentence with its matching scene. Keep pauses short and natural so the final narration fits 60 seconds.",
+    "caption_instructions": "Add accurate captions that match the narration word for word. Break captions into short, easy-to-read phrases and keep them on screen long enough to read.",
+    "text_placement": "Place labels near the relevant animated object without covering the plant or captions. Use consistent placement and strong contrast.",
+    "audio_balance": "Keep narration clear and in front. Set music and sound effects noticeably quieter than the voice-over, and avoid overlapping effects with important words.",
+    "beginner_editing_steps": [
+      "Create a new project and set it to 16:9, 1920x1080, and 30 fps.",
+      "Import the narration, music, sound effects, graphics, and animation assets.",
+      "Place the six scenes in order and set each scene to 10 seconds.",
+      "Add the narration and align the matching visuals with each sentence.",
+      "Add short labels and captions, checking that they are readable on screen.",
+      "Lower the music and sound effects so the narration stays easy to hear.",
+      "Watch the whole video once for timing, spelling, and visual clarity.",
+      "Export an MP4 file and confirm that the final runtime is 60 seconds."
+    ]
+  },
+  "professional_recommendations": {
+    "pacing": "Keep the narration warm and steady at about 128 words per minute. Give brief pauses after key terms such as photosynthesis and glucose.",
+    "visual_consistency": "Reuse the same plant design, icon shapes, arrow style, and label placement throughout the video.",
+    "color_and_lighting": "Use green for plant life, blue for water, yellow for sunlight, and a restrained palette for other elements. Keep the screen bright and uncluttered.",
+    "typography": "Choose a clean, bold sans-serif font. Use large labels, consistent capitalization, and strong contrast against the background.",
+    "audio_quality": "Record the voice-over in a quiet room, keep microphone distance consistent, and remove distracting noise before mixing.",
+    "storytelling": "Show the process in cause-and-effect order, then summarize the ingredients and products in one simple diagram.",
+    "audience_engagement": "Use the opening question to invite curiosity and finish by encouraging viewers to notice green leaves around them.",
+    "final_call_to_action": "Look for the green leaves doing the work."
+  },
+  "quality_control": {
+    "scene_count": 6,
+    "total_scene_duration_seconds": 60,
+    "duration_matches_target": true,
+    "script_matches_target_length": true,
+    "all_required_sections_completed": true,
+    "json_is_valid": true
+  }
+}

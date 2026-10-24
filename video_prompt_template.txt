@@ -1,0 +1,147 @@
+Act as an award-winning film director, professional screenwriter, 2D animation director, and video editor.
+
+Create a complete, beginner-friendly production plan for a professional video based only on the following three inputs:
+
+Video purpose: {purpose}
+Target video length: {length}
+Main topic/content: {content}
+
+If other information is needed, make reasonable assumptions based on the three inputs. Clearly list those assumptions in the JSON output.
+
+Your response must follow the exact JSON structure below.
+
+IMPORTANT OUTPUT RULES
+
+1. Return only valid JSON.
+2. Do not include Markdown, code fences, explanations, or text outside the JSON object.
+3. Use the exact field names and structure shown below.
+4. Do not add, remove, or rename fields.
+5. Use double quotation marks for all keys and text values.
+6. Use arrays for lists.
+7. Use numbers for scene numbers, timestamps, and durations.
+8. Break the video into scenes inside the "scenes" array.
+9. Place all information related to each scene inside that scene's object.
+10. Make sure the total scene duration equals the requested target length.
+11. Make sure the full script matches the requested video length.
+12. Include at least three sensory elements in every scene:
+    - Visual
+    - Auditory
+    - Physical or emotional atmosphere
+13. Infer the target audience, visual style, tone, genre, aspect ratio, resolution, and frame rate from the video purpose and content.
+14. Keep all instructions simple enough for a beginner.
+15. Validate the JSON before returning it.
+
+REQUIRED JSON STRUCTURE
+
+{
+  "metadata": {
+    "title": "",
+    "video_purpose": "",
+    "target_length": "",
+    "target_length_seconds": 0,
+    "main_topic": "",
+    "target_audience": "",
+    "platform": "",
+    "genre": "",
+    "tone": "",
+    "language": "",
+    "assumptions": []
+  },
+  "creative_direction": {
+    "concept": "",
+    "mood": "",
+    "visual_style": "",
+    "color_palette": [],
+    "storytelling_approach": "",
+    "opening_hook": "",
+    "opening_hook_text": "",
+    "aspect_ratio": "",
+    "resolution": "",
+    "frame_rate": ""
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "scene_title": "",
+      "start_time_seconds": 0,
+      "end_time_seconds": 0,
+      "duration_seconds": 0,
+      "visual_description": "",
+      "footage_or_assets_needed": [],
+      "voice_over": "",
+      "dialogue": "",
+      "on_screen_text": [],
+      "sensory_cues": {
+        "visual": "",
+        "auditory": "",
+        "physical_or_emotional": ""
+      },
+      "music": "",
+      "sound_effects": [],
+      "camera_direction": "",
+      "lighting_and_color": "",
+      "transition_to_next_scene": ""
+    }
+  ],
+  "complete_video_script": {
+    "full_narration": "",
+    "full_dialogue": "",
+    "estimated_word_count": 0,
+    "estimated_duration_seconds": 0
+  },
+  "asset_checklist": {
+    "characters": [],
+    "backgrounds": [],
+    "video_clips": [],
+    "b_roll": [],
+    "images": [],
+    "graphics": [],
+    "text_overlays": [],
+    "music": [],
+    "sound_effects": []
+  },
+  "editing_instructions": {
+    "project_settings": {
+      "aspect_ratio": "",
+      "resolution": "",
+      "frame_rate": "",
+      "file_format": ""
+    },
+    "timeline_setup": "",
+    "clip_placement": "",
+    "clip_duration_guidance": "",
+    "transition_guidance": "",
+    "narration_synchronization": "",
+    "caption_instructions": "",
+    "text_placement": "",
+    "audio_balance": "",
+    "beginner_editing_steps": []
+  },
+  "professional_recommendations": {
+    "pacing": "",
+    "visual_consistency": "",
+    "color_and_lighting": "",
+    "typography": "",
+    "audio_quality": "",
+    "storytelling": "",
+    "audience_engagement": "",
+    "final_call_to_action": ""
+  },
+  "quality_control": {
+    "scene_count": 0,
+    "total_scene_duration_seconds": 0,
+    "duration_matches_target": false,
+    "script_matches_target_length": false,
+    "all_required_sections_completed": false,
+    "json_is_valid": true
+  }
+}
+
+Before returning the answer, confirm internally that:
+
+- The "scenes" field is an array.
+- Every scene uses the same structure.
+- All scene durations add up to the requested video length.
+- The narration is suitable for the requested duration.
+- No required JSON field is missing.
+- The final response contains only valid JSON.

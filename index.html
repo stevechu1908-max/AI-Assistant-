@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrameLab — Video Production Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">FrameLab</span>
+    </div>
+    <p class="brand-tag">AI video production planning</p>
+  </header>
+
+  <main>
+    <section class="composer" aria-labelledby="composer-title">
+      <div class="composer-copy">
+        <h1 id="composer-title">Plan your next video</h1>
+        <p>Describe the purpose, length, and topic. FrameLab builds a full production guide—scenes, script, assets, and edit steps.</p>
+      </div>
+
+      <form id="generate-form" class="composer-form" novalidate>
+        <label class="field">
+          <span class="field-label">Purpose</span>
+          <input
+            id="purpose"
+            name="purpose"
+            type="text"
+            required
+            autocomplete="off"
+            placeholder="e.g. Educational explainer for beginners"
+            value="Educational explainer for beginners"
+          />
+        </label>
+
+        <label class="field">
+          <span class="field-label">Length</span>
+          <input
+            id="length"
+            name="length"
+            type="text"
+            required
+            autocomplete="off"
+            placeholder="e.g. 60 seconds"
+            value="60 seconds"
+          />
+        </label>
+
+        <label class="field field-wide">
+          <span class="field-label">Main topic / content</span>
+          <textarea
+            id="content"
+            name="content"
+            rows="3"
+            required
+            placeholder="e.g. How photosynthesis works in plants"
+          >How photosynthesis works in plants</textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" id="generate-btn">
+            <span class="btn-label">Generate guide</span>
+            <span class="btn-spinner" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-ghost" id="sample-btn">Preview sample</button>
+        </div>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="results" id="results" hidden>
+      <div class="results-hero">
+        <div class="results-hero-text">
+          <p class="eyebrow" id="result-eyebrow">Production guide</p>
+          <h2 id="result-title">—</h2>
+          <p id="result-concept" class="lead"></p>
+        </div>
+        <div class="meta-strip" id="meta-strip"></div>
+      </div>
+
+      <nav class="section-nav" id="section-nav" aria-label="Guide sections">
+        <button type="button" class="nav-chip is-active" data-panel="overview">Overview</button>
+        <button type="button" class="nav-chip" data-panel="direction">Creative</button>
+        <button type="button" class="nav-chip" data-panel="scenes">Scenes</button>
+        <button type="button" class="nav-chip" data-panel="script">Script</button>
+        <button type="button" class="nav-chip" data-panel="assets">Assets</button>
+        <button type="button" class="nav-chip" data-panel="editing">Editing</button>
+        <button type="button" class="nav-chip" data-panel="recs">Tips</button>
+        <button type="button" class="nav-chip" data-panel="qc">Quality</button>
+      </nav>
+
+      <div class="panels">
+        <article class="panel is-active" id="panel-overview" data-panel="overview"></article>
+        <article class="panel" id="panel-direction" data-panel="direction" hidden></article>
+        <article class="panel" id="panel-scenes" data-panel="scenes" hidden></article>
+        <article class="panel" id="panel-script" data-panel="script" hidden></article>
+        <article class="panel" id="panel-assets" data-panel="assets" hidden></article>
+        <article class="panel" id="panel-editing" data-panel="editing" hidden></article>
+        <article class="panel" id="panel-recs" data-panel="recs" hidden></article>
+        <article class="panel" id="panel-qc" data-panel="qc" hidden></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>FrameLab</span>
+    <span class="dot" aria-hidden="true"></span>
+    <span>Video production assistant</span>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
